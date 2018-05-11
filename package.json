@@ -66,9 +66,7 @@
     "uglify-js": "3.3.12"
   },
   "scripts": {
-    // "build": "npm install && grunt",
     "build": "console.log('build')",
-    // "start": "grunt watch",
     "start": "console.log('start')",
     "test:browserless": "grunt && grunt test:slow",
     "test:browser": "grunt && grunt karma:main",
